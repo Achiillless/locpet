@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('/assets/fonts/OpenSans-Regular.ttf') format('trurtype');
+}
+
+body{
+    font-family: 'OpenSans';
+    font-weight: 400;
+}
+
 .nav__system {
     margin: 0 auto;
     max-width: 1200px;
@@ -28,6 +41,7 @@ input {
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
     font-size: 18px;
     color: #626262;
+    background: #F5F5F5;
 }
 
 .account__icon {
