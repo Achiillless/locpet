@@ -102,6 +102,36 @@ input {
     transform: translate(-50%, 0%) rotate(-45deg);
 }
 
+.menu__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.menu__item {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.menu__item:nth-child(1) {
+    margin-top: 0;
+}
+
+.menu__item__txt {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.menu__item__txt:hover {
+    color: #000;
+}
+
+.menu__img {
+    margin-right: 60px;
+}
+
 .line__header {
     padding: 1px;
     max-width: 1700px;
